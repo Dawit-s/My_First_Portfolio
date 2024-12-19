@@ -3,20 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tweets - My First Portfolio</title>
+    <title>Tweets Page</title>
 </head>
 <body>
-    <!-- Heading for the tweets page -->
-    <h1>My Tweets</h1>
+    <!-- Header with navigation links -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-    <!-- Embedded Tweet (Example) -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">This is an example tweet. Check out my portfolio!</p>&mdash; Your Name (@your_twitter_handle) 
-        <a href="https://x.com/davea_s/status/1415922054109573120?s=46">Tweet Link</a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Main content area -->
+    <main>
+        <article>
+            <h1>Check Out My Tweets</h1>
 
-    <!-- Link back to index.html -->
-    <p><a href="tweets.html">See my tweets!</a></p>
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Check out this cool tweet!</p>&mdash; Your Name (@its_davea) <a href="https://x.com/davea_s/status/1415922054109573120?s=46 ref_src=twsrc%5Etfw">December 19, 2024</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+
+        <aside>
+            <p>Placeholder to add comment thread later.</p>
+        </aside>
+    </main>
+
+    <!-- Footer with credit link -->
+    <footer>
+        <p>Made by Your Name - <a href="https://www.example.com" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
