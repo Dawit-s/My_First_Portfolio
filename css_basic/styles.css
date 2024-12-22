@@ -1,1 +1,25 @@
+/* Set body to use Flexbox, arranging header, main, and footer in a column */
+body {
+    display: flex;
+    flex-direction: column;  /* Stack header, main, and footer vertically */
+    height: 100vh;  /* Use the full viewport height */
+}
+
+/* Set main to use Flexbox, arranging article and aside in a row */
+main {
+    display: flex;
+    flex-direction: row;  /* Article and aside will be arranged horizontally */
+    flex: auto;  /* Make sure main takes up available space */
+}
+
+/* Article and aside sizes */
+article {
+    flex: 2;  /* Article takes 2/3 of the width */
+    overflow-y: auto;  /* Enable vertical scrolling */
+}
+
+aside {
+    flex: 1;  /* Aside takes 1/3 of the width */
+    overflow-y: auto;  /* Enable vertical scrolling */
+}
 
