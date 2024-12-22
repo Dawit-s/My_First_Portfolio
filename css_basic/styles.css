@@ -45,4 +45,32 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+/* Styling for logo */
+header ul li:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffcc00;  /* Yellow color for the logo */
+}
+/* Styling for navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;  /* Yellow color on hover */
+}
 
